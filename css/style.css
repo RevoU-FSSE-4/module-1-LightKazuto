@@ -1,0 +1,86 @@
+html,body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Navigasi Bar */
+header .header-title{
+  color: #1C6DD0;
+  background-color: white;
+  text-align: center;
+  border-bottom: 5px #EEEEEE solid;
+  padding: 5px;
+}
+
+.header-title .title h1{
+  font-family: Sixtyfour;
+}
+
+header nav .pages-nav{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  margin-top: 30px;
+  color: #45474B;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: -5px;
+}
+
+/* Main Content */
+main .main-container{
+  text-align: center;
+  position: relative;
+  width: 800px;
+  left: 29%;
+  margin-top: 50px;
+  padding: 10px;
+  border: 5px solid #EEEEEE;
+  border-radius: 20px;
+  
+}
+
+main .main-container h2,h3{
+  font-family: monospace;
+}
+
+main .main-container h2{
+  font-size: 26px;
+}
+
+main .main-container h3{
+  font-size: 24px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+main .main-container p{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: wrap;
+  text-align: justify;
+  padding: 10px;
+  font-family: Rajdhani;
+}
+
+main .main-container img{
+  width: 700px;
+  height: 400px;
+}
+
+main .main-container ul{
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  font-family: Rajdhani;
+  
+}
+
+main .main-container video{
+  width: 700px;
+  height: 400px;
+}
+
+
+
+
