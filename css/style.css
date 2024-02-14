@@ -5,8 +5,12 @@ html,body {
 
 /* Navigasi Bar */
 header .header-title{
-  color: #1C6DD0;
+  z-index: 99;
+  position: fixed;
+  top: 0;
+  width: 100%;
   background-color: white;
+  color: #1C6DD0;
   text-align: center;
   border-bottom: 5px #EEEEEE solid;
   padding: 5px;
@@ -21,13 +25,17 @@ header nav .pages-nav{
   justify-content: space-evenly;
   list-style: none;
   margin-top: 30px;
-  color: #45474B;
+  color: #45474   ;
   font-size: 20px;
   font-weight: 400;
   margin-bottom: -5px;
 }
 
 /* Main Content */
+main{
+  margin-top: 200px;
+}
+
 main .main-container{
   text-align: center;
   position: relative;
@@ -84,3 +92,5 @@ main .main-container video{
 
 
 
+width="474"
+height="300"
