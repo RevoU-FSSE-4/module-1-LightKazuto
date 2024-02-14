@@ -18,34 +18,68 @@ header .header-title{
 
 .header-title .title h1{
   font-family: Sixtyfour;
+  margin-bottom: -10px;
+}
+
+.header-title .title p{
+  font-size: 18px;
+  font-family: monospace;
+}
+
+.header-title li a{
+  font-family: monospace;
+  color: #151D3B;
 }
 
 header nav .pages-nav{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
   list-style: none;
   margin-top: 30px;
-  color: #45474   ;
   font-size: 20px;
   font-weight: 400;
   margin-bottom: -5px;
+  padding: 10px;
+}
+
+.pages-nav a{
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.nav1 a:hover{
+  background-color: #EEEEEE;
+}
+
+.nav2 a:hover {
+  background-color: #EEEEEE;
+}
+
+.nav3 a:hover {
+  background-color: #EEEEEE;
 }
 
 /* Main Content */
 main{
-  margin-top: 200px;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 main .main-container{
   text-align: center;
   position: relative;
   width: 800px;
-  left: 29%;
   margin-top: 50px;
   padding: 10px;
   border: 5px solid #EEEEEE;
   border-radius: 20px;
-  
 }
 
 main .main-container h2,h3{
@@ -89,8 +123,28 @@ main .main-container video{
   height: 400px;
 }
 
+main b{
+  font-family: Rajdhani
+}
 
+main .pvideo video{
+  width: 700px;
+  height: 400px;
+}
 
+main .ending .checkbox{
+  display: flex;
+  margin-left: 1%;
+  font-family: Rajdhani;
+}
 
-width="474"
-height="300"
+main legend{
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+main .comment{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}

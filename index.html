@@ -21,9 +21,9 @@
         </div>
         <nav>
           <ul class="pages-nav">
-            <li>Home</li>
-            <li>List Game</li>
-            <li>About</li>
+            <li class="nav1"><a href="">Home</a></li>
+            <li class="nav2"><a href="">Game</a></li>
+            <li class="nav3"><a href="">About</a></li>
           </ul>
         </nav>
       </div>
@@ -120,8 +120,7 @@
                 <video
                   controls
                   src="Aset/Digimon Masters Online trailer.mp4"
-                  frameborder="1"
-                  ></video>
+                  frameborder="1"></video>
               </div>
             </div>
           </div>
@@ -190,8 +189,8 @@
                 <input
                   type="checkbox"
                   value="digimon-master"
-                  name="game1"
-                  id="game1" />
+                  name="game2"
+                  id="game2" />
                 Digimon Master Online
               </label>
 
@@ -210,32 +209,30 @@
               </p>
               <fieldset>
                 <legend>Comment</legend>
-                <div class="ending">
+                <div class="comment">
                   <label>Is this website helpful?</label>
-                  <label for="radio">
+                  <label for="radio" class="radio">
                     <input type="radio" id="yes" name="helpful" value="radio" />
                     Yes
                   </label>
-                  <label for="radio2">
-                    <input
-                      type="radio"
-                      id="yes"
-                      name="helpful"
-                      value="radio2" />
+                  <label for="radio2" class="radio">
+                    <input type="radio" id="no" name="helpful" value="radio2" />
                     No
                   </label>
-                  <br />
-                  <label for="name"> Nama</label>
+                  <br /><br />
+                  <label for="name"> Name</label>
                   <input
                     type="text"
                     placeholder="Type your name here"
-                    required="" />
+                    required=""
+                    class="comment-box1" />
                   <br />
                   <label for="email">Email</label>
                   <input
                     type="email"
                     placeholder="Type your Email here"
-                    required="" />
+                    required=""
+                    class="comment-box1" />
                   <br />
                   <label for="comment"> Comment</label>
                   <textarea
@@ -244,7 +241,8 @@
                     cols="30"
                     rows="10"
                     placeholder="Type your comment here"
-                    required=""></textarea>
+                    required=""
+                    class="comment-box2"></textarea>
                   <br />
                 </div>
                 <input type="submit" value="Send" />
@@ -254,8 +252,6 @@
           </form>
         </div>
       </div>
-
-      
     </main>
   </body>
 </html>
