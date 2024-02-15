@@ -1,7 +1,7 @@
 # Games Squad
 
 Games Squad is website to give information abaout games, walkthrought, recomendation and anythink!.
-on this website we will discuss any game. whether it's a game that's currently popular, underrated but good, and so forth.
+on this website we will discuss any game. whether it's a game that's currently popular, underrated but good, and so forth. Apart from that, this website has a good appearance and an interface that is easy to understand.
 
 ## Table of Content
 
@@ -31,5 +31,6 @@ git clone https://github.com/LightKazuto/Amsterdam-Project.git
 3. Search the game what do you want to know.
 
 ## License
+
     This web has licensed bt owner Ilham Sidiq Dont try to copy or repost without permission author.
-    you can contact author via Github : https://github.com/LightKazuto 
+    you can contact author via Github : https://github.com/LightKazuto

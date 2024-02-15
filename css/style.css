@@ -148,3 +148,13 @@ main .comment{
   flex-direction: column;
   text-align: left;
 }
+
+main .btn{
+  float: left;
+  margin-left: 10px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  font-family: Rajdhani;
+}
