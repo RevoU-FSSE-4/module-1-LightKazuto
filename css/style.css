@@ -34,7 +34,6 @@ header .header-title{
 header nav .pages-nav{
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 100px;
   list-style: none;
   margin-top: 30px;
@@ -52,23 +51,27 @@ header nav .pages-nav{
 
 .nav1 a:hover{
   background-color: #EEEEEE;
+  color: #1C6DD0;;
 }
 
 .nav2 a:hover {
   background-color: #EEEEEE;
+  color: #1C6DD0;
 }
 
 .nav3 a:hover {
   background-color: #EEEEEE;
+  color: #1C6DD0;
+    ;
 }
 
 /* Main Content */
 main{
   margin-top: 150px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items:flex-start;
   width: 100%;
 }
 
@@ -151,10 +154,35 @@ main .comment{
 
 main .btn{
   float: left;
+  margin-top: 10px;
   margin-left: 10px;
   padding: 5px;
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 5px;
   font-family: Rajdhani;
+}
+
+main .btn:hover{
+  background-color: #E3E1D9;
+}
+
+main .btn:active{
+  background-color: #B4B4B8;
+}
+
+/* Side content */
+main .side-container{
+    text-align: left;
+    position: relative;
+    width: 300px;
+    margin-top: 50px;
+    padding: 10px;
+    border: 3px solid #EEEEEE;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+
+main .side-container h3{
+  margin-left: 10px;
 }
