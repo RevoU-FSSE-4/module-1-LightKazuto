@@ -173,14 +173,23 @@ main .btn:active{
 
 /* Side content */
 main .side-container{
-    text-align: left;
-    position: relative;
-    width: 300px;
-    margin-top: 50px;
-    padding: 10px;
-    border: 3px solid #EEEEEE;
-    border-radius: 20px;
-    margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+main .side-border{
+  text-align: left;
+  position: relative;
+  width: 300px;
+  margin-top: 50px;
+  padding: 10px;
+  border: 3px solid #EEEEEE;
+  border-radius: 20px;
+  margin-left: 50px;
+}
+
+main .side-border a{
+  color: grey;
 }
 
 main .side-container h3{
