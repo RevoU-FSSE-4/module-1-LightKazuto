@@ -16,15 +16,16 @@ Most people are often confused about how to fill their holidays. in the end they
 
 ## Features
 
-- **Game list:** Informing about the game, and showing pictures and previews of the game.
+- **Game list :** Informing about the game, and showing pictures and previews of the game.
 - **helpful or not :** You can give an assessment of the website.
+- **Downloadble :** You can download the game cause link has attached on box
 
 ## Usage
 
 1. Clone the repository
 
 ```bash
-git clone https://github.com/LightKazuto/Amsterdam-Project.git
+git clone https://github.com/RevoU-FSSE-4/module-1-LightKazuto.git
 ```
 
 2. Open index.html (Recomedation to open in Google Chrome)
