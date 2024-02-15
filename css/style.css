@@ -185,4 +185,12 @@ main .side-container{
 
 main .side-container h3{
   margin-left: 10px;
+  font-family: monospace;
 }
+
+main .side-container ul{
+  font-family: Rajdhani;
+}
+
+/* Responsive */
+
