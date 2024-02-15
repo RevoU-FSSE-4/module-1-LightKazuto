@@ -12,7 +12,7 @@ on this website we will discuss any game. whether it's a game that's currently p
 
 ## Introduction
 
-Most people are often confused about how to fill their holidays. in the end they just kept quiet and didn't do anything. Therefore, here I want to provide recommendations for any games that can fill their free time.
+Most people are often confused about how to fill their holidays. in the end they just kept quiet and didn't do anything. Therefore, here I want to provide recommendations for any games that can fill their free time in weekend.
 
 ## Features
 
