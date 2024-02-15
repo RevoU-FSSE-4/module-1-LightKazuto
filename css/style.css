@@ -211,5 +211,45 @@ main .side-container ul{
 }
 
 @media only screen and (max-width:900px){
-  
+  main .main-container {
+    text-align: center;
+    position: absolute;
+    width: 550px;
+    margin-top: 50px;
+    padding: 10px;
+    border: 5px solid #EEEEEE;
+    border-radius: 20px;
+  }
+
+  main .main-container img {
+    width: 500px;
+    height: 300px;
+  }
+
+  main .pvideo video {
+    width: 500px;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  main .main-container {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    margin-top: 50px;
+    padding: 10px;
+    border: hidden;
+    border-radius: 20px;
+  }
+
+  main .main-container img {
+    width: 500px;
+    height: 300px;
+  }
+
+  main .pvideo video {
+    width: 500px;
+    height: 300px;
+  }
 }
